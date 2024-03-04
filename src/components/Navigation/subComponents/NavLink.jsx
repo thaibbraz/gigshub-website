@@ -22,12 +22,12 @@ export const NavLink = ({
         kind === "primary"
           ? `lg:text-base hover:text-purple font-sans lg:font-normal font-bold leading-7 ${
               isDropDown
-                ? "text-sm text-light-purple"
+                ? "text-base text-light-purple"
                 : "text-xl text-dark-purple"
             }`
           : `hover:text-washed-purple font-sans font-normal leading-7 ${
               isDropDown
-                ? "text-sm text-washed-purple"
+                ? "text-base text-washed-purple"
                 : "text-sm text-off-white"
             }`,
         className
