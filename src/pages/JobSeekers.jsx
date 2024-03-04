@@ -9,7 +9,7 @@ import { TestimonialCarousel } from "../components/TestimonialCarousel/Testimoni
 
 export default function JobSeekers() {
   return (
-    <div className="flex flex-col w-full py-16 gap-32 mb-12 bg-off-white lg:items-center">
+    <div className="flex flex-col w-full py-16 gap-20 lg:gap-32 mb-12 bg-off-white lg:items-center">
       <Container>
         <div className="flex flex-col lg:flex-row lg:justify-between items-center">
           <div className="flex flex-col gap-6 lg:w-textContainer px-6">
@@ -81,8 +81,8 @@ export default function JobSeekers() {
           alt="SubHero"
           className="hidden lg:flex"
         />
-        <div className="flex flex-col gap-6 w-textContainer">
-          <div className="font-sans text-5xl font-semibold text-dark-purple leading-textHero tracking-wide">
+        <div className="flex flex-col gap-6 lg:w-textContainer px-6">
+          <div className="font-sans text-5xl font-semibold text-dark-purple lg:leading-textHero leading-textHero2 tracking-wide">
             Helping <span className="text-light-purple">job seekers</span>
           </div>
           <p className="font-sans text-lg font-normal leading-7 text-dark-purple">
@@ -131,7 +131,7 @@ export default function JobSeekers() {
         <img
           src={freelancersSubHeroImg}
           alt="SubHero"
-          className="flex lg:hidden"
+          className="flex lg:hidden px-6"
         />
       </div>
       <CardGallery />
