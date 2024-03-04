@@ -11,23 +11,18 @@ export default function TermsOfService() {
     [location]
   );
   return (
-    <Container className="flex py-20 flex-col gap-60">
-      <div className="flex flex-row justify-between ">
-        <div className="font-sans text-7xl font-bold text-dark-purple">
+    <Container className="flex py-20 px-6 flex-col gap-20 lg:gap-60">
+      <div className="flex flex-col gap-6 items-center">
+        <div className="font-sans text-4xl lg:text-7xl font-bold text-dark-purple">
           Terms of Service
         </div>
-        <div className="flex flex-col font-sans text-lg font-normal text-dark-purple w-paragraph">
-          <span className="font-bold mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            varius faucibus massa sollicitudin amet augue.
-          </span>
-          Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur
-          eget commodo vitae. Amet pellentesque sit pulvinar lorem mi.
+        <div className="flex font-sans text-lg font-normal text-dark-purple">
+          Last updated: 3/4/2024
         </div>
       </div>
       <div className="flex flex-row justify-between">
         <div>
-          <div className="flex flex-col gap-6 w-blogCategoriesMenu sticky top-10">
+          <div className="lg:flex flex-col gap-6 w-blogCategoriesMenu sticky top-10 hidden ">
             <div className="font-sans text-2xl font-bold text-dark-purple">
               Table of contents
             </div>

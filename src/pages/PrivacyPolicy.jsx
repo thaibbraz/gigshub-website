@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
     [location]
   );
   return (
-    <Container className="flex py-20 px-6 flex-col gap-14 lg:gap-60">
+    <Container className="flex py-20 px-6 flex-col gap-20 lg:gap-60">
       <div className="flex flex-col gap-6 lg:flex-row lg:justify-between ">
         <div className="font-sans text-4xl lg:text-7xl font-bold text-dark-purple">
           Privacy Policy
@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
       </div>
       <div className="flex flex-row justify-between">
         <div>
-          <div className="lg:flex flex-col gap-6 w-blogCategoriesMenu sticky top-10 hidden ">
+          <div className="lg:flex flex-col gap-6 w-blogCategoriesMenu sticky top-10 hidden">
             <div className="font-sans text-2xl font-bold text-dark-purple">
               Table of contents
             </div>
