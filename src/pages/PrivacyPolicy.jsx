@@ -11,12 +11,12 @@ export default function PrivacyPolicy() {
     [location]
   );
   return (
-    <Container className="flex py-20 flex-col gap-60">
-      <div className="flex flex-row justify-between ">
-        <div className="font-sans text-7xl font-bold text-dark-purple">
+    <Container className="flex py-20 px-6 flex-col gap-14 lg:gap-60">
+      <div className="flex flex-col gap-6 lg:flex-row lg:justify-between ">
+        <div className="font-sans text-4xl lg:text-7xl font-bold text-dark-purple">
           Privacy Policy
         </div>
-        <div className="flex flex-col font-sans text-lg font-normal text-dark-purple w-paragraph">
+        <div className="flex flex-col font-sans text-sm lg:text-lg font-normal text-dark-purple lg:w-paragraph">
           <span className="font-bold mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
             varius faucibus massa sollicitudin amet augue.
@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
       </div>
       <div className="flex flex-row justify-between">
         <div>
-          <div className="flex flex-col gap-6 w-blogCategoriesMenu sticky top-10">
+          <div className="lg:flex flex-col gap-6 w-blogCategoriesMenu sticky top-10 hidden ">
             <div className="font-sans text-2xl font-bold text-dark-purple">
               Table of contents
             </div>
