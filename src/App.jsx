@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
 import AboutUs from "./pages/AboutUs";
-import Community from "./pages/Community";
 import Blog from "./pages/Blog";
 import Pricing from "./pages/Pricing";
 import ContactUs from "./pages/ContactUs";
@@ -20,7 +19,6 @@ function App() {
         <Route path="/freelancers" element={<Freelancers />} />
         <Route path="/jobSeekers" element={<JobSeekers />} />
         <Route path="/aboutUs" element={<AboutUs />} />
-        <Route path="/community" element={<Community />} />
         <Route path="/blog/*" element={<Blog />}>
           <Route path=":category" element={<Blog />} />
         </Route>

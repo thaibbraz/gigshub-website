@@ -50,16 +50,15 @@ export default function Pricing() {
     setIsBillingAnnual((prev) => !prev);
   };
   return (
-    <div className="flex flex-col w-full gap-40 mb-12 bg-off-white items-center">
+    <div className="flex flex-col w-full gap-14 lg:gap-40 mb-12 bg-off-white items-center">
       <Container>
-        <div className="flex flex-col items-center py-28 gap-6">
+        <div className="flex flex-col items-center py-20 lg:py-28 gap-6">
           <Heading
             title="Pricing plans"
+            titleSize="lg:text-7xl text-4xl"
             description="Simple, transparent pricing that grows with you."
-            textSize="7xl"
+            descriptionSize="lg:text-lg text-sm"
             alignment="center"
-            gap="10"
-            className=""
           />
           <div className="flex items-center justify-between">
             <div className="isolate inline-flex -space-x-px rounded-md shadow-sm items-center">
@@ -87,7 +86,7 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-8">
+        <div className="flex flex-col px-6 lg:px-0 lg:flex-row gap-8">
           {plans.map((plan, index) => (
             <PricingCard
               key={index}
