@@ -12,11 +12,11 @@ export default function JobSeekers() {
     <div className="flex flex-col w-full py-16 gap-32 mb-12 bg-off-white lg:items-center">
       <Container>
         <div className="flex flex-col lg:flex-row lg:justify-between items-center">
-          <div className="flex flex-col gap-6 w-textContainer">
+          <div className="flex flex-col gap-6 lg:w-textContainer px-6">
             <div className="bg-pale-purple p-2 rounded-full font-sans text-base font-semibold leading-7 text-dark-purple max-w-56 text-center">
               GigsHub for Job Seekers
             </div>
-            <div className="font-sans text-7xl font-bold text-dark-purple leading-textHero tracking-wider">
+            <div className="font-sans text-4xl lg:text-7xl font-bold text-dark-purple lg:leading-textHero leading-textHero2 tracking-wider">
               <span className="text-light-purple">Job Seeking</span> just got
               easier with us
             </div>
